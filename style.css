@@ -1,0 +1,49 @@
+body 
+{
+    background: rgb(0, 60, 255);
+}
+
+h1 
+{
+    font-family: algerian;
+    color: greenyellow;
+    font-size: 40px;
+    background-color: deeppink;
+    padding-left: 50px;
+}
+
+#show_sketch 
+{
+    font-family: baskeville old face;
+    color: rgb(255, 0, 183);
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+}
+
+p 
+{
+    color: cyan;
+    font-size: 25px;
+}
+
+canvas 
+{
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 3s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from {
+        box-shadow: 1px 1px 40px whitesmoke;
+    }
+
+    to {
+        box-shadow: 1px 1px 40px gray;
+    }
+}
